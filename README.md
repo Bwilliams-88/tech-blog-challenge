@@ -4,6 +4,6 @@ This assignment we were tasked with using MVC to create a tech blog. I was able 
 
 # Links
 
-Repo:
+Repo: https://github.com/Bwilliams-88/tech-blog-challenge
 
 Deployed:
