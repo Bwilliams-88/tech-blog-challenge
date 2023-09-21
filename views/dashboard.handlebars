@@ -1,0 +1,26 @@
+{{!-- <section class="container">
+  <h3 class="dashboard">{{dashboard.name}}</h3>
+  <section class="flex-row justify-center">
+    {{#each dashboard.posts as |posts|}}
+    {{> posts-details}}
+    {{/each}}
+  </section>
+</section> --}}
+
+<h2>Dashboard</h2>
+
+<blog class="form-blog">
+  <div class="title-group">
+    <label for="title">Title:</label>
+    <input class="title-input" type="text" id="blog-title" />
+  </div>
+  <div class="content-group">
+    <label for="content">Content:</label>
+    <input class="content-input" type="text" id="blog-content" />
+  </div>
+  <div class="blog-group">
+    <button class="btn btn-primary" type="submit">submit</button>
+  </div>
+</blog>
+
+<script src="/js/comment.js"></script>
